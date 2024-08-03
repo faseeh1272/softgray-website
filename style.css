@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: rgb(247, 231, 231);
+}
+header{
+    /* border: 2px solid black; */
+    padding: 10px 20px;
+}
+.header {
+    width: 100%;
+    background-color: white;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+    /* background-color: white; */
+   
+}
+h1 {
+    margin-right: 20px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+}
+ul li {
+    margin: 0 20px;
+}
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+.contact {
+    font-weight: bold;
+}
+
+
+.banner{
+    width: 100%;
+    height: 300px;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    background-image: url(https://www.sterlingcheck.co.uk/wp-content/themes/sterlingemea/resources/assets/images/blog-placeholder.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative; 
+    
+}
+div.content{
+  text-align: center;
+/* transform: translateY(-50); */
+top: 50px;
+   position: absolute;
+   font-weight: bold;
+   left: 0;
+   right: 0;
+   
+}
+section{
+    padding: 15px;
+    
+    
+
+}
+.card{
+    width: 22%;
+    /* font-size: 30px; */
+    /* border-radius: 20px; */
+}
+.card {
+    /* margin-top: 10px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+   gap: 20px;
+   
+}
+.logo-section{
+    background-color: rgb(11, 108, 187);
+    /* padding: 15px; */
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+.text_justify{
+    text-align: justify;
+}
+.flex-card{
+    display: flex;
+    gap: 20px;
+}
+.color{
+    color: rgb(22, 123, 238);
+    font-size: 20px;
+}
+.left_right_flex{
+display: flex;
+}
+.left{
+    width: 47%;
+    text-align: start;
+    
+}
+.right{
+    width: 47%;
+    justify-content: center;
+    align-items: center;            
+}
+.right img{
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+}
+
+.left h1{
+    margin-top: 10px;
+}
+.left button{
+  padding: 10px 20px;
+  /* border-style: none; */
+  background-color: aliceblue;
+}
+.flex_box{
+   display:flex ;
+   text-align: center;
+}
+.box h1{
+    margin: 15px 0px;
+}
+
+  
+
+.box img{
+    width: 300px;
+    height: auto;
+    align-items: center;
+}
+.box{
+width: 30%;
+padding: 30px;
+}
+.box img{
+width: 100%;
+height: 200px;
+object-fit: cover;
+}
+.box.bg_black{
+color: white;
+background-color: black;
+}
+.left_right_center{
+width: 100%;
+display: flex;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.color_p{
+color: rgb(11, 155, 190);
+}
+.left_right_center.box{
+background-color: white;
+}
